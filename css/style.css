@@ -291,6 +291,15 @@ button:hover {
   background-color: #0f4c81;
 }
 
+.contact-me-wa {
+  text-align: center;
+}
+
+.contact-me-wa a {
+  text-decoration: none;
+  color: #007bff;
+}
+
 /*? Contact Section End */
 
 /*! PORTFOLIO AREA */

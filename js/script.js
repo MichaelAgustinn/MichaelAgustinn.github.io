@@ -31,6 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
       src: "myproject/project3.png",
       desc: "Project Mengembangkan Aplikasi Sahabat Ternak.",
     },
+    {
+      src: "myproject/project4.png",
+      desc: "Project Membuat Tampilan UI Untuk Aplikasi Baca Komik.",
+    },
   ];
 
   let currentIndex = 0;
