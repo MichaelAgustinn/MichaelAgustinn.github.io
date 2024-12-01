@@ -241,6 +241,28 @@ main {
   color: #007bff; /* Warna saat hover */
 }
 
+.education-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education-history li {
+  display: flex; /* Menggunakan Flexbox */
+  align-items: flex-start; /* Menjaga teks sejajar di atas */
+  gap: 1rem; /* Jarak antara <strong> dan teks deskripsi */
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.education-history li strong {
+  flex-shrink: 0; /* Agar lebar <strong> tetap */
+  width: 200px; /* Lebar tetap untuk meratakan ke kiri */
+  text-align: left; /* Rata kiri untuk teks dalam <strong> */
+  font-weight: 600;
+}
+
+
 /** about area end */
 
 /*? Contact Section */
