@@ -16,15 +16,18 @@ const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
 const DockerLogo = require("../assets/logos/DockerLogo.png");
 
 const skills = [
-  { name: "JavaScript (ES6+)", logo: JsLogo },
-  { name: "Next.js", logo: NextLogo },
-  { name: "React", logo: ReactLogo },
-  { name: "TypeScript", logo: TypescriptLogo },
-  { name: "Tailwind CSS", logo: TailwindLogo },
-  { name: "Redux", logo: ReduxLogo },
-  { name: "Python", logo: PythonLogo },
+  {name: "HTML", logo: "https://skillicons.dev/icons?i=html"},
+  {name: "CSS", logo: "https://skillicons.dev/icons?i=css"},
+  { name: "JavaScript", logo: JsLogo },
+  {name: "PHP", logo: "https://skillicons.dev/icons?i=php"},
+  {name: "Dart", logo: "https://skillicons.dev/icons?i=dart"},
+  {name: "Bootstrap", logo: "https://skillicons.dev/icons?i=bootstrap"},
+  {name: "Laravel", logo: "https://skillicons.dev/icons?i=laravel"},
+  {name: "Flutter", logo: "https://skillicons.dev/icons?i=flutter"},
+  {name: "SCSS", logo: "https://skillicons.dev/icons?i=scss"},
+  {name: "Java", logo: "https://skillicons.dev/icons?i=java"},
+  {name: "C++", logo: "https://skillicons.dev/icons?i=cpp"},
   { name: "Firebase", logo: FirebaseLogo },
-  { name: "Nodejs", logo: NodeJSLogo },
   { name: "SQL", logo: SqlLogo },
   { name: "MongoDB", logo: MongoDBLogo },
   { name: "Docker", logo: DockerLogo },
@@ -46,17 +49,18 @@ const About = () => {
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros
-            non nisi vulputate eleifend. Vestibulum erat ipsum, lacinia ut nibh
-            ut, pulvinar interdum lorem. Aliquam et nisi eu risus ultrices
-            suscipit nec nec quam. Suspendisse pretium fermentum luctus.
-            Maecenas vitae vestibulum ipsum, ut varius diam. Phasellus mattis
-            nunc vel purus maximus, sit amet congue ligula tincidunt. Nulla
-            tristique luctus lacinia. Nullam ut tortor arcu.
+              Saya adalah mahasiswa S1 Informatika di Universitas Sulawesi
+                  Barat yang memiliki minat kuat dalam pengembangan web,
+                  aplikasi seluler, dan analisis data. Saya aktif terlibat dalam
+                  organisasi kemahasiswaan dan telah mengerjakan beberapa proyek
+                  teknologi menggunakan Laravel dan Figma. Saat ini, saya sedang
+                  fokus untuk meningkatkan keterampilan saya dalam Laravel dan
+                  Flutter untuk membangun aplikasi yang bermanfaat dan
+                  berdampak.
           </code>
           <br />
           <br />
-          <code>Aenean in mi non leo placerat suscipit a eget odio:</code>
+          <code>Skill Yang Saya Kuasai:</code>
           <List list={skills} />
         </div>
       </div>

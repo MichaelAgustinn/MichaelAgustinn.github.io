@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 
 const GitLogo = require("../assets/logos/GitLogo.png");
-const LinkedinLogo = require("../assets/logos/LinkedinLogo.png");
-const KaggleLogo = require("../assets/logos/KaggleLogo.png");
+const FacebookLogo = "https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg";
+const InstagramLogo = "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png";
 const MailLogo = require("../assets/logos/MailLogo.png");
 
 const JSIcon = require("../assets/icons/JSIcon.png");
@@ -76,28 +76,28 @@ const SideBar = ({
           ) : null}
           <div className="absolute w-full bottom-10 px-6">
             <div className="flex justify-between">
-              <a href="/">
+              <a href="https://github.com/MichaelAgustinn">
                 <img
                   src={GitLogo}
                   alt="Git Logo"
                   className="h-10 w-10 text-yellow_vs hover:cursor-pointer duration-500 hover:scale-125"
                 />
               </a>
-              <a href="/">
+              <a href="https://instagram.com/michaelagustin_">
                 <img
-                  src={KaggleLogo}
+                  src={InstagramLogo}
                   alt="Kaggle Logo"
                   className="h-10 w-10 text-yellow_vs hover:cursor-pointer duration-500 hover:scale-125"
                 />
               </a>
-              <a href="/">
+              <a href="https://facebook.com/michaelagustinnn">
                 <img
-                  src={LinkedinLogo}
-                  alt="Linkedin Logo"
+                  src={FacebookLogo}
+                  alt="Facebook Logo"
                   className="h-10 w-10 text-yellow_vs hover:cursor-pointer duration-500 hover:scale-125"
                 />
               </a>
-              <a href="/">
+              <a href="mailto:michaelagustinn080@gmail.com">
                 <img
                   src={MailLogo}
                   alt="Mail Logo"
